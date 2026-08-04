@@ -35,8 +35,18 @@ Cálculo de Indicadores Chave:
    - Contagem total de pedidos analisados
    - Distribuição das Avaliações: Análise e visualização gráfica (usando Seaborn e Matplotlib) da distribuição de notas atribuídas pelos clientes (de 1 a 5 estrelas).
 
+5.  Mineração de texto de avaliações(text mining)
+   - Realiza uma análise de texto (Text Mining) em avaliações de clientes da base Olist utilizando Python.
+   - Foram aplicadas técnicas de pré-processamento, como remoção de acentos, pontuação e stopwords, além da padronização dos textos.
+   - Em seguida, os comentários foram analisados por meio da frequência de palavras e n-gramas (bigramas), permitindo identificar os principais temas e padrões presentes nas avaliações.
+   -  O projeto utiliza bibliotecas como Pandas, NLTK, Scikit-learn, Matplotlib e Seaborn para tratamento dos dados e visualização dos resultados.
+  
    🛠️ Ferramentas Utilizadas
 
    - Python
    - Pandas e NumPy (Manipulação e estruturação de dados)  
    - Matplotlib e Seaborn (Visualização e gráficos)
+   - NLTK (Processamento de linguagem natural)
+   - Scikit-learn (Bigramas)
+   - Unicodedata (Remover acentos e normalizar textos)
+     
